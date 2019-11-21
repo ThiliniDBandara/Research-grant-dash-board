@@ -219,15 +219,213 @@
                                                         <input type="text" class="form-control">
                                                     </div>
                                                     <div class="form-group">
-                                                        <label>9.Project Ddescription
-                                                            <br>please prepare according to the Gudelines and attach to the Aplication. <strong>Do Not exceed 8 pages</strong>
+                                                        <label> <strong>8.Othe Commitments of the applicant</strong> (Please indicate the periods/durations as applicable)</label>
+                                                        <br>
+                                                        <label>(a) Teaching(No. of hours per week)</label>
+                                                        <input type="text" name="teaching" class="form-control"><br>
+
+                                                        <label>(b) Training Programmes.</label>
+                                                        <input type="text" name="training" class="form-control"><br>
+
+                                                        <label>(c) Leave abroad, eith period(study leave, sabbatical leave etc)</label>
+                                                        <input type="text" name="leave" class="form-control"><br>
+
+                                                        <label>(d) Othe research activities in progess for which the applicant/s/is/are responsible as principal investigator or co-investigator</label>
+                                                        <input type="text" name="research" class="form-control"><br>
+                                                        <div class="form-row">                                                        
+                                                            <div class="form-group col-md-4">
+                                                                <label>TITLE OF PROJECT</label>
+                                                                <input type="text" name="title" class="form-control">
+                                                            </div>
+
+                                                            <div class="form-group col-md-4">
+                                                                <label>SOURCE OF PROJECT</label>
+                                                                <input type="text" name="source" class="form-control">
+                                                            </div>
+
+                                                            <div class="form-group col-md-4">
+                                                                    <label>DURATION OF SUPPORT</label>
+                                                                    <input type="DATE" name="date" class="form-control">
+                                                            </div>
+                                                    </div>
+
+
+                                                    </div>   
+                                                    <div class="form-group">
+                                                        <label><strong>9.Project Ddescription</strong><br>
                                                         </label>
                                                        <input type="file" class="form-control-file" id="exampleFormControlFile1" >
                                                     </div>
                                                     <div class="form-group">
-                                                        <label>11.Budget Justification
-                                                            <br> (1) Personnel
-                                                            <br>
+                                                        <label><strong>10. Summary of Budeget</strong></label>
+                                                        <br>For each of the items for which funds are required please give a justification for requesting the fund sitemized, abd show clearly hoe the cost figures were deliverd in the following pages.
+                                                         <br><label><strong>(1) Presonnel</strong></label><br>
+                                                         <label>(i) Research Student</label>
+                                                         <div class="form-row"> 
+                                                         <div class="form-group col-md-3">
+                                                                <label>1st year Rs.</label>
+                                                                <input type="text" name="rs.1" class="form-control">
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                                <label>2nd year Rs.</label>
+                                                                <input type="text" name="rs.2" class="form-control">
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                                <label>3rd year Rs.</label>
+                                                                <input type="text" name="rs.3" class="form-control">
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                                <label>Total</label>
+                                                                <input type="text" name="total" class="form-control">
+                                                        </div>
+                                            </div>
+                                            <label>(ii) Technical Assistant</label>
+                                            <div class="form-row"> 
+                                            <div class="form-group col-md-3">
+                                                   <label>1st year Rs.</label>
+                                                   <input type="text" name="rs.1" class="form-control">
+                                           </div>
+                                           <div class="form-group col-md-3">
+                                                   <label>2nd year Rs.</label>
+                                                   <input type="text" name="rs.2" class="form-control">
+                                           </div>
+                                           <div class="form-group col-md-3">
+                                                   <label>3rd year Rs.</label>
+                                                   <input type="text" name="rs.3" class="form-control">
+                                           </div>
+                                           <div class="form-group col-md-3">
+                                                   <label>Total</label>
+                                                   <input type="text" name="total" class="form-control">
+                                           </div>
+                               </div>
+                                           <label>(iii) Other</label>
+                                           <div class="form-row"> 
+
+                                           <div class="form-group col-md-3">
+                                           <label>1st year Rs.</label>
+                                           <input type="text" name="rs.1" class="form-control">
+                                           </div>
+
+                                           <div class="form-group col-md-3">
+                                           <label>2nd year Rs.</label>
+                                           <input type="text" name="rs.2" class="form-control">
+                                           </div>
+
+                              <div class="form-group col-md-3">
+                                      <label>3rd year Rs.</label>
+                                      <input type="text" name="rs.3" class="form-control">
+                              </div>
+                              <div class="form-group col-md-3">
+                                      <label>Total</label>
+                                      <input type="text" name="total" class="form-control">
+                              </div>
+                  </div>
+                  <label>Sub Total(Personnel)</label>
+                  <div class="form-row"> 
+                  <div class="form-group col-md-3">
+                         <label>1st year Rs.</label>
+                         <input type="text" name="rs.1" class="form-control">
+                 </div>
+                 <div class="form-group col-md-3">
+                         <label>2nd year Rs.</label>
+                         <input type="text" name="rs.2" class="form-control">
+                 </div>
+                 <div class="form-group col-md-3">
+                         <label>3rd year Rs.</label>
+                         <input type="text" name="rs.3" class="form-control">
+                 </div>
+                 <div class="form-group col-md-3">
+                         <label>Total</label>
+                         <input type="text" name="total" class="form-control">
+                 </div>
+                 </div>
+                 <label><strong>(2) Equipment</strong></label><br>
+                 <div class="form-row"> 
+                        <div class="form-group col-md-3">
+                               <label>1st year Rs.</label>
+                               <input type="text" name="rs.1" class="form-control">
+                       </div>
+                       <div class="form-group col-md-3">
+                               <label>2nd year Rs.</label>
+                               <input type="text" name="rs.2" class="form-control">
+                       </div>
+                       <div class="form-group col-md-3">
+                               <label>3rd year Rs.</label>
+                               <input type="text" name="rs.3" class="form-control">
+                       </div>
+                       <div class="form-group col-md-3">
+                               <label>Total</label>
+                               <input type="text" name="total" class="form-control">
+                       </div>
+                       </div>
+                       <label><strong>(3) Consumable</strong></label><br>
+                       <div class="form-row"> 
+                              <div class="form-group col-md-3">
+                                     <label>1st year Rs.</label>
+                                     <input type="text" name="rs.1" class="form-control">
+                             </div>
+                             <div class="form-group col-md-3">
+                                     <label>2nd year Rs.</label>
+                                     <input type="text" name="rs.2" class="form-control">
+                             </div>
+                             <div class="form-group col-md-3">
+                                     <label>3rd year Rs.</label>
+                                     <input type="text" name="rs.3" class="form-control">
+                             </div>
+                             <div class="form-group col-md-3">
+                                     <label>Total</label>
+                                     <input type="text" name="total" class="form-control">
+                             </div>
+                             </div>
+                             <label><strong>(4) Travel and Subsistence </strong></label><br>
+                             <div class="form-row"> 
+                                    <div class="form-group col-md-3">
+                                           <label>1st year Rs.</label>
+                                           <input type="text" name="rs.1" class="form-control">
+                                   </div>
+                                   <div class="form-group col-md-3">
+                                           <label>2nd year Rs.</label>
+                                           <input type="text" name="rs.2" class="form-control">
+                                   </div>
+                                   <div class="form-group col-md-3">
+                                           <label>3rd year Rs.</label>
+                                           <input type="text" name="rs.3" class="form-control">
+                                   </div>
+                                   <div class="form-group col-md-3">
+                                           <label>Total</label>
+                                           <input type="text" name="total" class="form-control">
+                                   </div>
+                                   </div>
+                                   <label><strong>(5) Miscellaneous</strong></label><br>
+                                   <div class="form-row"> 
+                                          <div class="form-group col-md-3">
+                                                 <label>1st year Rs.</label>
+                                                 <input type="text" name="rs.1" class="form-control">
+                                         </div>
+                                         <div class="form-group col-md-3">
+                                                 <label>2nd year Rs.</label>
+                                                 <input type="text" name="rs.2" class="form-control">
+                                         </div>
+                                         <div class="form-group col-md-3">
+                                                 <label>3rd year Rs.</label>
+                                                 <input type="text" name="rs.3" class="form-control">
+                                         </div>
+                                         <div class="form-group col-md-3">
+                                                 <label>Total</label>
+                                                 <input type="text" name="total" class="form-control">
+                                         </div>
+                                         </div>
+<p>*  List all the items of equipment in this cage.<br>
+* Attach lis tincluding complete description of type (e.g. chemicals, glassware, etc) Quantity and cost</p>
+     
+                                            
+
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label><strong>11.Budget Justification</strong><br>
+                                                         (1) Personnel<br>
+                                                            
+                                                            <label><strong>(i) Research Student</strong></label><br>
                                                             a. Full time/part time for <input type="text" > Years/months. 
                                                         </label>
 
@@ -240,7 +438,7 @@
                                             
                       
                         </form>
-                        <a href="/form B" type="submit" class="btn btn-primary">Submit</a>
+                        <a href="/form A" type="submit" class="btn btn-primary">Submit</a>
                     </div>
                 </div>
             </div>
