@@ -23,6 +23,12 @@ Route::get('/form1', function () {
 Route::get('/form B', function () {
     return view('form B');
 });
+Route::get('/form C', function () {
+    return view('form C');
+});
+Route::get('/form A', function () {
+    return view('form A');
+});
 Route::post('/savedetail','DetailsController@store');
 
 
