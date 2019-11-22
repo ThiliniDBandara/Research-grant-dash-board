@@ -32,7 +32,7 @@
                                     <label for="exampleFormControlInput1">(1)Presonal Details of Applicant</label>
                                 </div>
                                 <div class="form-group">
-                                        <label>1.1 Full Name:</label>
+                                        <label>1.1 Full Name Reseacher:</label>
                                         <input type="text" name="full_name" class="form-control">
                                     </div>
                                     <div class="form-group">
